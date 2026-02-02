@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Volume Discount for WooCommerce
-Description: Volume Discount for WooCommerce by Chinmay
+Description: Volume Discount for WooCommerce, a PET project, by Chinmay.
 Version: 1.0
 Author: Chinmay
 */
