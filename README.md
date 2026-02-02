@@ -1,5 +1,7 @@
 # Volume Discount for WooCommerce
+### PET project, by Chinmay.
 
+## Instructions:
 1. Upload the `volume-discount` folder to the `/wp-content/plugins/` directory.    
 2. Activate the plugin through the `Plugins` screen in WordPress.    
 3. Go to the plugin settings page (`Settings` > `Volume Discount`) to configure discount matrix.
