@@ -134,12 +134,12 @@ function vd_enqueue_cart_widget_script() {
     // Enqueue widget script
     $handle = 'vd-cart-widget';
     $src = VD_PLUGIN_URL . 'assets/js/vd-cart-widget.js';
-    wp_enqueue_script( $handle, $src, array( 'jquery' ), null, true );
+    wp_enqueue_script( $handle, $src, array( 'jquery' ), time() );
 
     // Enqueue widget styles
     $css_handle = 'vd-cart-widget-style';
     $css_src = VD_PLUGIN_URL . 'assets/css/vd-cart-widget.css';
-    wp_enqueue_style( $css_handle, $css_src );
+    wp_enqueue_style( $css_handle, $css_src, array(), time() );
 
     // Localize script with AJAX parameters
     wp_localize_script( $handle, 'vd_cart_widget_params', array(
